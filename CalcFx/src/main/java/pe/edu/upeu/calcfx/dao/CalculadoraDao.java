@@ -44,7 +44,7 @@ public class CalculadoraDao {
             rs=ps.executeQuery();
             while(rs.next()){
                 CalcTO calcTO = new CalcTO();
-                calcTO.setId(rs.getInt("id"));
+                calcTO.setId(rs.getLong("id"));
                 calcTO.setNum1(rs.getString("num1"));
                 calcTO.setNum2(rs.getString("num2"));
                 calcTO.setOperador(rs.getString("operador").charAt(0));
