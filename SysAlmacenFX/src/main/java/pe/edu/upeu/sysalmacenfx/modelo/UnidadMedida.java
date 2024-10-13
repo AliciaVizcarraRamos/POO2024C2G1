@@ -19,4 +19,5 @@ public class UnidadMedida {
     private Long idUnidad;
     @Column(name = "nombre_medida", nullable = false, length = 60)
     private String nombreMedida;
+
 }
