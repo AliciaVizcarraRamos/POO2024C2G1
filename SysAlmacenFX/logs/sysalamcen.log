@@ -29,3 +29,20 @@
 2024-10-15T11:30:39.249-05:00  INFO 21756 --- [SysAlmacenFX] [JavaFX-Launcher] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 2024-10-15T11:30:39.272-05:00  INFO 21756 --- [SysAlmacenFX] [JavaFX-Launcher] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2024-10-15T11:30:39.676-05:00  INFO 21756 --- [SysAlmacenFX] [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 2.604 seconds (process running for 3.08)
+2024-10-16T17:27:50.464-05:00  INFO 17664 --- [SysAlmacenFX] [JavaFX-Launcher] o.s.boot.SpringApplication               : Starting application using Java 23 with PID 17664 (started by Usuario in C:\VIZCARRA-C2-G2\POO2024C2G1\SysAlmacenFX)
+2024-10-16T17:27:50.467-05:00  INFO 17664 --- [SysAlmacenFX] [JavaFX-Launcher] o.s.boot.SpringApplication               : No active profile set, falling back to 1 default profile: "default"
+2024-10-16T17:27:51.305-05:00  INFO 17664 --- [SysAlmacenFX] [JavaFX-Launcher] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-16T17:27:51.405-05:00  INFO 17664 --- [SysAlmacenFX] [JavaFX-Launcher] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 15 JPA repository interfaces.
+2024-10-16T17:27:51.939-05:00  INFO 17664 --- [SysAlmacenFX] [JavaFX-Launcher] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-16T17:27:52.014-05:00  INFO 17664 --- [SysAlmacenFX] [JavaFX-Launcher] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-16T17:27:52.052-05:00  INFO 17664 --- [SysAlmacenFX] [JavaFX-Launcher] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-16T17:27:52.484-05:00  INFO 17664 --- [SysAlmacenFX] [JavaFX-Launcher] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-16T17:27:52.545-05:00  INFO 17664 --- [SysAlmacenFX] [JavaFX-Launcher] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-16T17:27:52.694-05:00  INFO 17664 --- [SysAlmacenFX] [JavaFX-Launcher] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@1fbd7fed
+2024-10-16T17:27:52.698-05:00  INFO 17664 --- [SysAlmacenFX] [JavaFX-Launcher] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-16T17:27:54.196-05:00  INFO 17664 --- [SysAlmacenFX] [JavaFX-Launcher] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-16T17:27:54.254-05:00  INFO 17664 --- [SysAlmacenFX] [JavaFX-Launcher] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-16T17:27:55.081-05:00  INFO 17664 --- [SysAlmacenFX] [JavaFX-Launcher] o.s.boot.SpringApplication               : Started application in 5.355 seconds (process running for 6.661)
+2024-10-16T17:59:52.340-05:00  INFO 17664 --- [SysAlmacenFX] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-16T17:59:52.343-05:00  INFO 17664 --- [SysAlmacenFX] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-16T17:59:52.348-05:00  INFO 17664 --- [SysAlmacenFX] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
