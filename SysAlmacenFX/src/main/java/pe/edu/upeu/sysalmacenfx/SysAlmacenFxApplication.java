@@ -31,14 +31,14 @@ public class SysAlmacenFxApplication extends Application {
 		launch(args);
 	}
 
-	@Bean
-	public CommandLineRunner run(ApplicationContext context) { return args -> {
-		MainX mx = context.getBean(MainX.class);
-		mx.menu();
+	//@Bean
+	//public CommandLineRunner run(ApplicationContext context) { return args -> {
+		//MainX mx = context.getBean(MainX.class);
+		//mx.menu();
 		//serviceCAT mx =context.getBean(serviceCAT.class);
 		//mx.menu();
-		};
-	}
+		//};
+	//}
 
 
 	@Override

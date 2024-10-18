@@ -26,7 +26,7 @@ public class ProductoService {
 
     }
 
-    public List<Producto> List() {
+    public List<Producto> list() {
         return repo.findAll();
 
     }
@@ -58,4 +58,6 @@ public class ProductoService {
     public  Producto buscarId(Long id){
         return  repo.findById(id).get();
     }
+
+
 }
