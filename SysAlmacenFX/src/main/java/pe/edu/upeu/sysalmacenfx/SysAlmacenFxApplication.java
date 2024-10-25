@@ -46,7 +46,7 @@ public class SysAlmacenFxApplication extends Application {
 		SpringApplicationBuilder builder = new SpringApplicationBuilder(SysAlmacenFxApplication.class);
 		builder.application().setWebApplicationType(WebApplicationType.NONE);
 		exteconfigurableApplicationContext = builder.run(getParameters().getRaw().toArray(new String[0]));
-		FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/view/main_producto.fxml"));
+		FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/view/login.fxml"));
 		fxmlLoader.setControllerFactory(exteconfigurableApplicationContext::getBean);
 		parent= fxmlLoader.load();
 	}

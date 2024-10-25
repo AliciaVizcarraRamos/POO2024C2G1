@@ -43,28 +43,9 @@ public class UsuarioService {
 
 
     }
-    public Usuario update(Usuario to){
-        return  repo.save(to);
+    public Usuario loginUsuario(String user, String clave) {
+        return repo.loginUsuario(user, clave);
     }
-    //D
-    public void delete(Long id){
-        repo.deleteById(id);
-    }
-    public  Usuario buscarId(Long id){
-        return  repo.findById(id).get();
-    }
-    public List<ComboBoxOption> listarCombobox(){
-        List<ComboBoxOption> listar =new ArrayList<>();
-        for (Usuario cate : repo.findAll()) {
-            listar.add(new ComboBoxOption(String
-                    .valueOf(cate.getIdUsuario()),
-                    cate.getClave()
-            ));
 
-        }
-        return listar
-                ;
-
-    }
 }
 
