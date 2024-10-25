@@ -7,21 +7,25 @@ import javafx.geometry.Rectangle2D;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
+import org.springframework.stereotype.Component;
 import pe.edu.upeu.sysalmacenfx.componente.StageManager;
 import pe.edu.upeu.sysalmacenfx.componente.Toast;
 import pe.edu.upeu.sysalmacenfx.dto.SessionManager;
 import pe.edu.upeu.sysalmacenfx.modelo.Usuario;
 import pe.edu.upeu.sysalmacenfx.servicio.UsuarioService;
 
-import java.awt.*;
+
 import java.io.IOException;
 
+@Component
 public class LoginController {
     @Autowired
     private ApplicationContext context;
@@ -32,7 +36,7 @@ public class LoginController {
     @FXML
     TextField txtUsuario;
     @FXML
-    PasswordField txtClave;
+    PasswordField txtClavex;
     @FXML
     Button btnIngresar;
 
@@ -40,7 +44,7 @@ public class LoginController {
     public void login(ActionEvent event) throws IOException {
         try {
             Usuario usu=us.loginUsuario(txtUsuario.getText(),
-                    new String(txtClave.getText()));
+                    new String(txtClavex.getText()));
             if (usu!=null) {
                 SessionManager.getInstance().setUserId(usu.getIdUsuario());
                 SessionManager.getInstance().setUserName(usu.getUser());

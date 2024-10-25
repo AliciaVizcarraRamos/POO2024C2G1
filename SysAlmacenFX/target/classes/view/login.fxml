@@ -10,7 +10,10 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="538.0" prefWidth="428.0" style="-fx-background-color: #2E354F;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pe.edu.upeu.sysalmacenfx.control.LoginController">
+<?import atlantafx.base.controls.PasswordTextField?>
+<?import javafx.scene.control.PasswordField?>
+<AnchorPane prefHeight="538.0" prefWidth="428.0" style="-fx-background-color: #2E354F;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="pe.edu.upeu.sysalmacenfx.control.LoginController">
    <children>
       <AnchorPane prefHeight="60.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0">
          <children>
@@ -50,7 +53,7 @@
             <AnchorPane layoutY="67.0" style="-fx-border-color: #b5abd1; -fx-border-radius: 2;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
                <children>
                   <Label layoutX="47.0" layoutY="39.0" text="Clave:" textFill="#b5abd1" />
-                  <TextField fx:id="txtClave" layoutX="121.0" layoutY="35.0" prefHeight="26.0" prefWidth="246.0" />
+                  <PasswordField fx:id="txtClavex" layoutX="121.0" layoutY="35.0" prefHeight="26.0" prefWidth="246.0" />
                </children></AnchorPane>
          </children></AnchorPane>
       <AnchorPane layoutX="5.0" layoutY="381.0" prefHeight="87.0" prefWidth="418.0" style="-fx-background-color: yellow;" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0">
