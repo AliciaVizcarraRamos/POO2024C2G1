@@ -49,6 +49,7 @@ public class SysAlmacenFxApplication extends Application {
 		FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/view/login.fxml"));
 		fxmlLoader.setControllerFactory(exteconfigurableApplicationContext::getBean);
 		parent= fxmlLoader.load();
+
 	}
 	@Override
 	public void start(Stage stage) throws Exception {
