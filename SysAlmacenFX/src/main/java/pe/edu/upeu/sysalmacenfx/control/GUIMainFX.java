@@ -170,6 +170,27 @@ public class GUIMainFX {
                 }
 
             }
+         if (((MenuItem) e.getSource()).getId().equals("mimisalir")) {
+
+            tabPaneFx.getTabs().clear();
+
+            try {
+                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/view/login.fxml"));
+                fxmlLoader.setControllerFactory(context::getBean);
+                parent= fxmlLoader.load();
+                Scene scene = new Scene(parent); //Punto (1) Diana
+                stage.sizeToScene();
+                stage.setScene(scene);
+                stage.centerOnScreen(); // Punto (1) Mary
+                stage.setTitle("SysAlmacen Spring Java-FX");
+                stage.setResizable(false); //Miael (0.8)
+                stage.show();
+
+
+            }catch (Exception ex){
+                throw new RuntimeException(ex);
+            }
+
         }
 
         static class SampleMenuListener {
