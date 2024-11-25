@@ -4,7 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane fx:id="miContenedor" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pe.edu.upeu.sysalmacenfx.control.VentaController">
+<AnchorPane fx:id="miContenedor" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: #cacaca;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pe.edu.upeu.sysalmacenfx.control.VentaController">
    <children>
       <AnchorPane layoutX="14.0" layoutY="14.0" maxWidth="1.7976931348623157E308" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
          <children>
@@ -27,7 +27,7 @@
                      </GridPane.margin>
                   </Label>
                   <TextField fx:id="autocompCliente" GridPane.rowIndex="1" />
-                  <Button fx:id="btnFormCliente" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="61.0" prefWidth="64.0" text="Add" GridPane.columnIndex="1" GridPane.rowSpan="2">
+                  <Button fx:id="btnFormCliente" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="61.0" prefWidth="64.0" style="-fx-background-color: #e2aff2; -fx-region-border: #4b9ad8; -fx-background-insets: #4b9ad8;" text="Add" GridPane.columnIndex="1" GridPane.rowSpan="2">
                      <GridPane.margin>
                         <Insets left="5.0" />
                      </GridPane.margin>
@@ -167,7 +167,7 @@
       </AnchorPane>
       <AnchorPane layoutX="5.0" layoutY="356.0" maxWidth="1.7976931348623157E308" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0">
          <children>
-            <GridPane layoutX="14.0" maxWidth="1.7976931348623157E308" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0">
+            <GridPane layoutX="14.0" maxWidth="1.7976931348623157E308" style="-fx-background-color: #bbf7cf;" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0">
               <columnConstraints>
                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                   <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
